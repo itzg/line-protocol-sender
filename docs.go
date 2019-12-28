@@ -1,4 +1,5 @@
-/**
+/*
+
 Package sender provides a client that sends Influx line protocol metrics to a TCP endpoint.
 The client provides options for batching metrics by size and/or timeout.
 
