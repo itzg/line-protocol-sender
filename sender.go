@@ -89,7 +89,7 @@ func (c *clientImpl) processMetrics() {
 		}
 
 		if reset {
-			batch = batch[:]
+			batch = batch[0:0]
 			// and "clear" timer
 			batchTimerChan = nil
 		}
